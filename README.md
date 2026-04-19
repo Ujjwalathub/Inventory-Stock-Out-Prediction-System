@@ -27,10 +27,6 @@ online_retail_II.csv # Training dataset
 stockout_predictions.csv # Generated predictions
 Start the backend (from project root):
 
-Start the frontend (in another terminal):
-
-Access the dashboard: http://localhost:5173
-
 API Endpoints
 GET /api/v1/predictions/top-risk - Top 10 at-risk products
 GET /api/v1/inventory/trends/{stock_code} - Historical demand for a product
